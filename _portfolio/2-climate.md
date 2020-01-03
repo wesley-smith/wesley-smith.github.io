@@ -4,7 +4,7 @@ excerpt: "An interactive, mixed dataset visualization of US climate data<br/><im
 collection: portfolio
 ---
 
-The data visualization linked below shows a combination of three climate-related datasets:
+This was a group project with [James Bonifield](https://www.linkedin.com/in/bonifield/), [Chris Comfort](https://www.linkedin.com/in/chrismc8045bb5/), and [Diego Carvallo](https://www.linkedin.com/in/diego-carvallo/) for [CSE6242](https://poloclub.github.io/#cse6242). The data visualization linked below shows a combination of three climate-related datasets:
 
 * Temperature
 * CO2 emissions
@@ -12,8 +12,6 @@ The data visualization linked below shows a combination of three climate-related
 
 Our objective was to provide users with relevant and easy-to-digest data for their locality (in the US). It was a significant challenge to digest such diverse datasets and display them in a user-friendly way.
 
-This was a group project with [James Bonifield](https://www.linkedin.com/in/bonifield/), [Chris Comfort](https://www.linkedin.com/in/chrismc8045bb5/), and [Diego Carvallo](https://www.linkedin.com/in/diego-carvallo/) for CSE6242.
+The visualization is built with [Plotly](https://plot.ly/) and [Dash](https://plot.ly/dash/) - Python toolkits for building interactive visualizations. Please visit the following link to view and interact.
 
-The visualization is built with [Plotly](https://plot.ly/) and [Dash](https://plot.ly/dash/) - Python toolkits for building interactive visualizations. Please visit the following link to view.
-
-https://cse6242-sp19-g52-dashapp.herokuapp.com/
+[https://cse6242-sp19-g52-dashapp.herokuapp.com/](https://cse6242-sp19-g52-dashapp.herokuapp.com/)
