@@ -4,14 +4,24 @@ excerpt: "Solving the OpenAI Gym Lunar Lander using Deep Q-Learning<br/><img src
 collection: portfolio
 ---
 
+<p>
 The task for this project was to design a learning agent capable of solving OpenAI Gym's <a href="https://gym.openai.com/envs/LunarLander-v2/">Lunar Lander environment</a>. This was a fun and engaging project with many learning outcomes in solving Markov Decision Processes with continuous state spaces.
+</p>
 
+<p>
 The objective is to train a lunar lander module to safely land on a 2D pad using a single main thruster and two rotational thrusters. At each timestep, the environment's state is encoded via a number of continuously-valued variables encoding position and velocity. Using this information, the agent can fire one of the three thrusters or do nothing.
+</p>
 
+<p>
 To solve this problem, I implemented a deep learning agent using a <a href="https://www.nature.com/articles/nature14236">Deep Q-Network</a> (DQN) as a function approximator. The code (which I am forbidden to share due to academic honor code constraints) was written in Python using Keras for neural network functionality.
+</p>
 
+<p>
 This project stood out among others in OMSCS because it had a visual component that was quite fun to watch. Below, I've included a video showing periodic highlights of a 500-episode training sequence.
+</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fwzsm11iIf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<p>
 There are several distinct phases of learning. At first, the agent is choosing actions randomly, and is utterly incapable of controlling the module. The first few dozen episodes nearly all end in catastrophic failure. Gradually, the rate of random action is reduced, and the agent selects actions which are likely to result in reward. This results in the middle phase of learning, during which the lander mostly learns to hover. The final phase of learning is a slow approach towards landing on the pad. Eventually, the agent can land quickly and reliably on or near the landing pad.
+</p>
